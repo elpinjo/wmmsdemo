@@ -8,7 +8,7 @@ pipeline {
 	environment {
         JAVA_HOME = "/opt/softwareag/jvm/jvm"
 		PACKAGE = "Machines"
-		NAMESPACE = "api-hip-workshop"
+		NAMESPACE = "oznl"
 		CONTAINER = "machines-api"
 		CONTAINER_TAG = "${env.CONTAINER}:latest"
     }
